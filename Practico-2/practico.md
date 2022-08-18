@@ -12,3 +12,12 @@
 
 ## Punto 7:
 ![image](./Imagenes/Punto7.png)
+
+## Punto 8:
+Levantamos la imagen pero al no especificar el puerto, no nos muestra nada en LocalHost.
+
+![image](./Imagenes/Punto8a.png)
+
+Ahora que le indicamos los puertos de comunicacion.
+
+![image](./Imagenes/Punto8b.png)
