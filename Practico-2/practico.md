@@ -1,12 +1,14 @@
-### Practico 2
+# Practico 2
 
 ## Punto 4:
     - No ocurre nada porque no ejecutamos el comando correcto.
-    - Ver Punto4.png
+![image](./Imagenes/Punto4.png)
 
 ## Punto 5:
-    - Ver Punto5.png
+![image](./Imagenes/Punto5.png)
 
 ## Punto 6:
-    -Ver Punto6.png
-    
+![image](./Imagenes/Punto6.png)
+
+## Punto 7:
+![image](./Imagenes/Punto7.png)
