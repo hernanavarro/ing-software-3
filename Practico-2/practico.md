@@ -21,3 +21,13 @@ Levantamos la imagen pero al no especificar el puerto, no nos muestra nada en Lo
 Ahora que le indicamos los puertos de comunicacion.
 
 ![image](./Imagenes/Punto8b.png)
+
+## Punto 9:
+
+Descargamos una imagen de postgres 
+
+![image](./Imagenes/Punto9a.png)
+
+Luego levantamos dicha imagen e interactuamos con postgres.
+
+![image](./Imagenes/Punto9b.png)
