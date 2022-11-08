@@ -24,3 +24,21 @@ F. Guardar la informacion en un volumen de datos.
 
 Basicamente el "docker-compose.yml" es un archivo en el cual definimos los parametros para correr un docker predeterminado, donde le seteamos servicios, red, db.
 ![image](./Imagenes/Punto3.png)
+
+## Punto 4
+
+Analizando el "docker-compose", resumo que el sistema utiliza dos Apis:
+
+front-tier, a través de la cuál se interconectan las apps de votación y resultados, utilizando websockets. back-tier, a través de la cuál éstas se comunican con redis y postgres. A su vez, el worker de java se comunica con estas últimas, actualizando postgres a partir de redis. La persistencia de datos de postgres se realiza sobre el volumen db-data.
+
+Ambas Apis exponen su puerto 80 interno a través de los puertos 5000 y 5001 del host.
+
+Procedimiento:
+A. Voto de un usuario por 'localhost:5000' a la aplicación python.
+B. La información del voto va desde la app de python a redis.
+C. El worker de java esta observando la cola en redis, al momento en que ingresan votos los toma.
+D. El worker ingresa a la db el voto tomado desde la cola.
+F. La app node esta constantemente pidiendo los nuevos votos desde la db. 
+G. La app node visualiza la cuenta de votos en 'localhost:5001'.
+
+![image](./Imagenes/voting-app.png)
