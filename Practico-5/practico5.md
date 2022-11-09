@@ -47,3 +47,28 @@ Se creo un proyecto java a partir del template ar.edu.ucc, el cual se ha ejecuta
 
 ## 6-Manejo de Dependencias
 
+![image](./Imagenes/BuildFail.png)
+
+Falla porque no encuentra las dependencias necesarias en el POM.
+
+![image](./Imagenes/POMUber.png)
+Se agregaron las dependencias y propiedades necesarias.
+
+![image](./Imagenes/Ejecutado.png)
+Funcionando
+
+## 9-Ejemplo con python
+
+* Cookiecutter: es una herramienta de CLI desarrollada en Python, que permite crear templates de proyectos.
+* make: permite organizar los archivos de compilacion automaticamente, encargandose de la gestion de dependencias.
+* pip: permite instalar y administrar paquetes en Python.
+
+## 10- Build tools para otros lenguajes
+* Python - Pip
+* C/C++ - Conan
+* Go - Glide
+* Ruby - Bundler
+* JavaScript - Npm
+* PHP - Composer
+* Java - Maven/Gradle
+* Swift - Swift Package Manager
