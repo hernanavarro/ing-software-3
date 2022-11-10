@@ -16,3 +16,12 @@ Ahora corremos todos los test
 
 ## 3- Testeando la aplicación spring-boot
 
+Test spring-boot-it
+![image](./Imagenes/TestRealizados.png)
+
+## 4- Habilitar reportes para utilizarlos en CICD
+
+Test spring-boot-it
+![image](./Imagenes/TestResultDoc.png)
+
+## 5- Integrar la ejecución en Jenkins
