@@ -10,11 +10,10 @@ La notacion @Test es la que le indica que es un caso de test. Y el assertEquals 
 Analizando básicamente en el test podemos observar la utilización de mock que su función es crear escenario ficticio para poder testear la funcionalidad que se busca probar y cumplir así con el test.
 
 ## 4- Utilizando Mocks
-![image](./Imagenes/SegundoTest.png)
 
 Ahora el agregado de las clases "AbstractTest" y "SampleControllerTest" basicamente es un test que extiende de otro. El abstract por un lado mockea el contexto de la web app, y por otro es el test propio del controller a testear en cuestion. Se corre el test y resulta exitoso.
 ![image](./Imagenes/ControllerTest.png)
 
 ## 6- Capturar los unit tests como parte del proceso de CI/CD
 
-Aca hay que crear el actions con lo de docker que falla.
+![image](./Imagenes/Punto6.png)
