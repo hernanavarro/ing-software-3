@@ -20,4 +20,7 @@ Desventajas:
 Se define la ruta donde esta el repo "spring-boot", luego se accede al repositorio a por medio de los jobs, despues se intala Java JDK8 con Maven, y se compila. Para finalmente correrla.
 
 ## 3- Utilizando nuestros proyectos con Docker
-
+Secrets:
+![image](./Imagenes/Secrets.png)
+Ejecucion
+![image](./Imagenes/ActionsRun2.png)
